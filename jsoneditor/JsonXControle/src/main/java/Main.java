@@ -10,9 +10,9 @@ import java.io.IOException;
 
 public class Main extends Component {
     public static void main(String[]args){
-        JButton btnLoad,btnSave,btnShow;
-        JLabel lblPath,lblimag,lbltitle,lblname,lblurl,lbltype;
-        JTextField textJsonPath,textjsonImg,textjsontitle,textjsonname,textjsonurl,textjsontype;
+        JButton btnSave,btnShow;
+        JLabel lblimag,lbltitle,lblname,lblurl,lbltype;
+        JTextField textjsonImg,textjsontitle,textjsonname,textjsonurl,textjsontype;
         JTextField imgvalue,titlevalue,namevalue,urlvalue,typevalue;
         JTable mytable;
         JFrame.setDefaultLookAndFeelDecorated(true);
@@ -22,10 +22,6 @@ public class Main extends Component {
 
 
 
-        lblPath = new JLabel("The Path:");
-        lblPath.setBounds(40,5,100,20);
-        textJsonPath = new JTextField();
-        textJsonPath.setBounds(40, 25, 300, 20);
         //data form
 
         lblimag = new JLabel("Image Value :");
@@ -63,62 +59,48 @@ public class Main extends Component {
         typevalue = new JTextField();
         typevalue.setBounds(150,185,100,20);
 
-        btnLoad = new JButton("...");
-        btnLoad.setBounds(350, 25, 60, 20);
-
         btnShow= new JButton("Show");
         btnShow.setBounds(300, 50, 150, 20);
 
         btnSave= new JButton("Save");
         btnSave.setBounds(300, 80, 150, 20);
-btnLoad.addActionListener(new ActionListener() {
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        JFileChooser jfc = new JFileChooser();
-        int userChoise = jfc.showOpenDialog(null);
-        if (userChoise == JFileChooser.APPROVE_OPTION){
-            File selectedfile = jfc.getSelectedFile();
-            textJsonPath.setText(selectedfile.getPath());
-        }
-        if (userChoise == JFileChooser.CANCEL_OPTION)
-            textJsonPath.setText("no file selected");
-    }
 
-});
-btnSave.addActionListener(new ActionListener() {
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        String open = "{\n";
-        String name = " \"First_Name:\"" + " \"Shikhar\",\n";
-        String name1 = " \"First_Name:\"" + " \"Shikhar\",\n";
-        String name2 = " \"First_Name:\"" + " \"Shikhar\",\n";
-        String name3 = " \"First_Name:\"" + " \"Shikhar\",\n";
-        String close = "},\n";
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(textJsonPath.getText()));
-            bufferedWriter.write(""+open+" "+name+""+ name3 +""+name1+""+name2+""+name3+""+close);
-            bufferedWriter.write(System.getProperty("line.separator"));
-            bufferedWriter.close();
+            FileWriter fileWriter = new FileWriter("output.json");
+            fileWriter.write("{\n"+
+                    "\""+textjsonImg.getText()+"\": "+"\""+imgvalue.getText() +"\",\n"+
+                    "\""+textjsontitle.getText() +"\":"+"\""+titlevalue.getText()+"\",\n"+
+                    "\""+textjsonname.getText() +"\":"+"\""+namevalue.getText()+"\",\n"+
+                    "\""+textjsonurl.getText() +"\":"+"\""+urlvalue.getText()+"\",\n"+
+                    "\""+textjsontype.getText() +"\":"+"\""+typevalue.getText()+"\",\n"+
+                    "},");
+
         } catch (IOException er) {
             // TODO Auto-generated catch block
             er.printStackTrace();
         }
+
+
+btnSave.addActionListener(new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
     }
 });
 
         System.out.println("JSON file created: ");
 
-        frame.add(btnLoad);
+
         frame.add(btnShow);
         frame.add(btnSave);
 
-        frame.add(lblPath);
+
         frame.add(lblname);
         frame.add(lblimag);
         frame.add(lbltitle);
         frame.add(lbltype);
 
-        frame.add(textJsonPath);
+
         frame.add(lblimag);
         frame.add(textjsonImg);
         frame.add(textjsonname);
