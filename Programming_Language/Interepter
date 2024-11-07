@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct {
+    char *var_name;
+    int value;
+} Variable;
+
+Variable variables[256];  // A simple variable store (max 256 variables)
+int var_count = 0;
+
+int get_var_value(char *var_name) {
+    for (int i = 0; i < var_count; i++) {
+        if (strcmp(variables[i].var_name, var_name) == 0) {
+            return variables[i].value;
+        }
+    }
+    printf("Error: Undefined variable %s\n", var_name);
+    exit(1);
+}
+
+void set_var_value(char *var_name, int value) {
+    for (int i = 0; i < var_count; i++) {
+        if (strcmp(variables[i].var_name, var_name
