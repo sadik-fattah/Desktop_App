@@ -8,9 +8,9 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 
-public class blogger {
+public class blogger_testable {
     public static void main(String[] args) {
-        String feedUrl = "https://guercifzone-ar.blogspot.com/feeds/posts/default?alt=rss";
+        String feedUrl = "https://yourdamin.com/feeds/posts/default?alt=rss";
         String outputFile = "output.xml";
 
         try {
