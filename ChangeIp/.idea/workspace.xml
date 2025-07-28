@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f78f731-f41a-499e-9c1a-7e37b12a430b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChangeIP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChangeIP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guercifzone/Exmp_1/TorIPChangerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guercifzone/Exmp_2/TorIpChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Base.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Desktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Desktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Metal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Metal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Native.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Native.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Skia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Skia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Win32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Win32.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.X11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.X11.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/CommunityToolkit.Mvvm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/CommunityToolkit.Mvvm.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/HarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/HarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/MicroCom.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/MicroCom.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/SkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/SkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/System.IO.Pipelines.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Base.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Base.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Desktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Desktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Metal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Metal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Native.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Native.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Skia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Skia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Win32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Win32.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.X11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.X11.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/HarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/HarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MicroCom.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MicroCom.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/SkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/SkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/System.IO.Pipelines.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/java/org/guercifzone/demofx/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/java/org/guercifzone/demofx/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/java/org/guercifzone/demofx/MyWebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/java/org/guercifzone/demofx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofx/src/main/resources/org/guercifzone/demofx/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.vshost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.vshost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../theserver/androidserver/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../theserver/androidserver/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../theserver/androidserver/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../theserver/androidserver/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xCut-master/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/../xCut-master/INSTALL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xCut-master/xCut" beforeDir="false" afterPath="$PROJECT_DIR$/../xCut-master/xCut" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="30Va2ww3dP1YTzahrb5DtbRkaug" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.TorIPChangerGUI.executor": "Run",
+    "Application.TorIpChanger.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/media/jakinzo/USB STICK/Desktop_App/ChangeIp/src/main/java/org/guercifzone/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TorIpChanger">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.guercifzone.Main" />
+      <module name="ChangeIp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.guercifzone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorIPChangerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.guercifzone.Exmp_1.TorIPChangerGUI" />
+      <module name="ChangeIp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.guercifzone.Exmp_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorIpChanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.guercifzone.Exmp_2.TorIpChanger" />
+      <module name="ChangeIp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.guercifzone.Exmp_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TorIpChanger" />
+        <item itemvalue="Application.TorIPChangerGUI" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f78f731-f41a-499e-9c1a-7e37b12a430b" name="Changes" comment="" />
+      <created>1753714991812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753714991812</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/guercifzone/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
