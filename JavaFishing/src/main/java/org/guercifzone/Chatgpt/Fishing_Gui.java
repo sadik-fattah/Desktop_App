@@ -1,4 +1,4 @@
-package org.guercifzone.Exmp_1;
+package org.guercifzone.Chatgpt;
 
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;
@@ -10,18 +10,17 @@ import java.awt.event.ActionEvent;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
 import java.util.List;
 
-public class Fishing_1 {
+public class Fishing_Gui {
 
     private static HttpServer server;
     private static JTextArea logArea;
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Fishing_1::createAndShowGUI);
+        SwingUtilities.invokeLater(Fishing_Gui::createAndShowGUI);
     }
 
     private static void createAndShowGUI() {
