@@ -1,11 +1,10 @@
-package org.guercifzone.Exmp_1;
-
+package org.guercifzone.chatgpt;
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.net.*;
 
-public class TorIPChangerGUI extends JFrame {
+public class TorIpChanger extends JFrame {
     private static final String CONTROL_HOST = "127.0.0.1";
     private static final int CONTROL_PORT = 9051;
     private static final String CONTROL_PASSWORD = ""; // If password is set in torrc
@@ -15,7 +14,7 @@ public class TorIPChangerGUI extends JFrame {
     private JLabel ipLabel;
     private JButton changeIPButton;
 
-    public TorIPChangerGUI() {
+    public void TorIpChanger() {
         setTitle("Tor IP Changer");
         setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -96,7 +95,7 @@ public class TorIPChangerGUI extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new TorIPChangerGUI().setVisible(true);
+            new TorIpChanger().setVisible(true);
         });
     }
 }

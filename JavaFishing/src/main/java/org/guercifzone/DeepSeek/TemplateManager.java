@@ -45,11 +45,13 @@ public class TemplateManager {
         TemplateConfig config = templates.getOrDefault(templateName, templates.get("default"));
         return config.getRedirectUrl();
     }
-
-    public static void listTemplates() {
+    public static List<String> listTemplates() {
+        return new ArrayList<>(templates.keySet());
+    }
+    /*public static void listTemplates() {
         System.out.println("Available templates:");
         templates.keySet().forEach(System.out::println);
-    }
+    }*/
 
     private static String readFile(String path) throws IOException {
         StringBuilder content = new StringBuilder();

