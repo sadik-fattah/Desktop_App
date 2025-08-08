@@ -1,4 +1,4 @@
-package org.guercifzone;
+package org.guercifzone.ListVideo;
 
 
 
@@ -7,14 +7,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AppFrame extends JFrame {
+public class App_Frame2 extends JFrame {
     private JTextField urlField;
     private JButton downloadButton;
     private JComboBox<String> formatComboBox;
     private JFileChooser directoryChooser;
     private JPanel progressPanelContainer;
 
-    public AppFrame() {
+    public App_Frame2() {
         setTitle("YouTube Playlist Downloader");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -42,13 +42,13 @@ public class AppFrame extends JFrame {
                 String format = (String) formatComboBox.getSelectedItem();
 
                 if (playlistUrl.isEmpty()) {
-                    JOptionPane.showMessageDialog(AppFrame.this,
+                    JOptionPane.showMessageDialog(App_Frame2.this,
                             "Please enter a YouTube playlist URL",
                             "Error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
 
-                int returnVal = directoryChooser.showSaveDialog(AppFrame.this);
+                int returnVal = directoryChooser.showSaveDialog(App_Frame2.this);
                 if (returnVal == JFileChooser.APPROVE_OPTION) {
                     String savePath = directoryChooser.getSelectedFile().getAbsolutePath();
                     new Downloader(playlistUrl, savePath, format.toLowerCase(), progressPanelContainer).execute();

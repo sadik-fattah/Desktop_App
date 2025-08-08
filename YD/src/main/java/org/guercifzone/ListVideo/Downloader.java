@@ -1,7 +1,7 @@
-package org.guercifzone;
+package org.guercifzone.ListVideo;
 
-import org.guercifzone.Utils.FileUtils;
-import org.guercifzone.Utils.YoutubeUtils;
+import org.guercifzone.ListVideo.Utils.FileUtils;
+import org.guercifzone.ListVideo.Utils.YoutubeUtils;
 
 import javax.swing.*;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.guercifzone;
+package org.guercifzone.ListVideo;
 
 
 import javax.swing.*;
