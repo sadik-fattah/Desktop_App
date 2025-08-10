@@ -1,14 +1,11 @@
 package org.guercifzone.Gui;
 
-
 import org.guercifzone.DataBase.DatabaseHelper;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
-
-public class LogsView extends JFrame {
+public class LogsView extends JPanel {  // Changed from JFrame to JPanel
     private JTable logsTable;
     private DatabaseHelper dbHelper;
 
@@ -19,10 +16,7 @@ public class LogsView extends JFrame {
     }
 
     private void initializeUI() {
-        setTitle("Login Logs Viewer");
-        setSize(800, 600);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setLayout(new BorderLayout());
 
         // Create components
         logsTable = new JTable();
@@ -39,12 +33,11 @@ public class LogsView extends JFrame {
         buttonPanel.add(refreshBtn);
         buttonPanel.add(exportBtn);
 
-        Container contentPane = getContentPane();
-        contentPane.setLayout(new BorderLayout());
-        contentPane.add(buttonPanel, BorderLayout.NORTH);
-        contentPane.add(scrollPane, BorderLayout.CENTER);
+        add(buttonPanel, BorderLayout.NORTH);
+        add(scrollPane, BorderLayout.CENTER);
     }
 
+    // Rest of the methods remain the same...
     private void loadLogs() {
         String[] columnNames = {"Email", "Password", "IP Address", "Last Login"};
         String[][] data = dbHelper.getLogsAsArray();
@@ -52,13 +45,13 @@ public class LogsView extends JFrame {
         DefaultTableModel model = new DefaultTableModel(data, columnNames) {
             @Override
             public boolean isCellEditable(int row, int column) {
-                return false; // Make table non-editable
+                return false;
             }
         };
 
         logsTable.setModel(model);
-        logsTable.getColumnModel().getColumn(1).setPreferredWidth(100); // Password column
-        logsTable.getColumnModel().getColumn(3).setPreferredWidth(150); // Timestamp column
+        logsTable.getColumnModel().getColumn(1).setPreferredWidth(100);
+        logsTable.getColumnModel().getColumn(3).setPreferredWidth(150);
     }
 
     private void exportToCSV() {
