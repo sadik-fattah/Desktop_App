@@ -1,0 +1,15 @@
+PrivacyPolicyGenerator/
+├── Main.java
+├── ui/
+│   ├── MainFrame.java
+│   ├── panels/
+│   │   ├── AppInfoPanel.java
+│   │   ├── PermissionsPanel.java
+│   │   ├── DataCollectionPanel.java
+│   │   └── GeneratePanel.java
+├── model/
+│   ├── AppInfo.java
+│   ├── Permissions.java
+│   └── DataCollection.java
+└── service/
+    └── PolicyGenerator.java
