@@ -5,19 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.guercifzone</groupId>
-    <artifactId>BrowseJson</artifactId>
+    <artifactId>JsonEditor2</artifactId>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
-    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>2.20.0-rc1</version>
-    </dependency>
-</dependencies>
+
     <properties>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>24</maven.compiler.source>
+        <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

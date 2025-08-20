@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="175c7c61-a033-4121-9608-5e492e3203c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChangeIP/src/main/java/org/guercifzone/IPChangerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFishing_v2/src/main/java/org/guercifzone/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonEditor2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BloggerContent/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BloggerContent/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/src/main/java/JsonBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/src/main/java/JsonBrowse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChangeIp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/chatgpt/TorIpChanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/deepseek/TorIPChangerGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/.idea/.idea.GetStartedApp.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/.idea/.idea.GetStartedApp.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/.idea/.idea.GetStartedApp.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/.idea/.idea.GetStartedApp.dir/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/.idea/.idea.GetStartedApp.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/App.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/App.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/Assets/avalonia-logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/GetStartedApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/ViewLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/ViewModels/MainWindowViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/ViewModels/ViewModelBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/Views/MainWindow.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/Views/MainWindow.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Base.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Controls.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Desktop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Markup.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Metal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Native.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Skia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.Win32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.X11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Avalonia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/CommunityToolkit.Mvvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/GetStartedApp.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/HarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/MicroCom.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/SkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/Avalonia/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/Avalonia/GetStartedApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/GetStartedApp.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/ref/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/refint/Avalonia/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/Debug/net8.0/refint/GetStartedApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/GetStartedApp.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/GetStartedApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/GetStartedApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/streming/ImageStreamingServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetStartedApp/streming/MjpegWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFishing_v2/src/main/java/org/guercifzone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing_v2/src/main/java/org/guercifzone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/LoggerToWebBrowser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/src/VideoStreamer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/src/streaming/ImageStreamingServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoggerToWebBrowser/src/streaming/MjpegWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/App.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/App.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/MainWindow.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/MainWindow.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/MyAvaloniaApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Base.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Controls.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.DesignerSupport.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Desktop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Diagnostics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Dialogs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.FreeDesktop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Markup.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Metal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.MicroCom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Native.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.OpenGL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Skia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Themes.Simple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Vulkan.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.Win32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.X11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Avalonia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/HarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MicroCom.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/MyAvaloniaApp.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/SkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/Tmds.DBus.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/Avalonia/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/Avalonia/MyAvaloniaApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/MyAvaloniaApp.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/ref/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/refint/Avalonia/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/Debug/net8.0/refint/MyAvaloniaApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/MyAvaloniaApp.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/MyAvaloniaApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/MyAvaloniaApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAvaloniaApp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/MyGtkApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/obj/MyGtkApp.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/obj/MyGtkApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/obj/MyGtkApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/streaming/ImageStreamingServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyGtkApp/streaming/MjpegWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/FrameThatLucktoLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/ThreadOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jsoneditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/JsonXControle/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsoneditor/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/ImageStreamingServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/MjpegWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/bin/Debug/rtaNetworking.Streaming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/bin/Debug/rtaNetworking.Streaming.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/obj/Debug/Refactor/rtaNetworking.Streaming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/obj/Debug/ResolveAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/obj/Debug/rtaNetworking.Streaming.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/obj/Debug/rtaNetworking.Streaming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/obj/Debug/rtaNetworking.Streaming.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaNetworking.Streaming/rtaNetworking.Streaming.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaNetworking.Streaming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaNetworking.Streaming.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.vshost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/bin/Debug/rtaVideoStreamer.vshost.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/ResolveAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.Form1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.csproj.GenerateResource.Cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/obj/Debug/rtaVideoStreamer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rtaVideoStreamer-src C#/rtaVideoStreamer/rtaVideoStreamer/rtaVideoStreamer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamin_mvn_Swing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streamin_mvn_Swing/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="31Yn08avzGqjqkDdAkXS0NJsUmx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/jakinzo/USB_PROJECT/Desktop_App/theserver"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="175c7c61-a033-4121-9608-5e492e3203c1" name="Changes" comment="" />
+      <created>1755709648225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755709648225</updated>
+    </task>
+    <servers />
+  </component>
+</project>

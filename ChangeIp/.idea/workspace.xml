@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f78f731-f41a-499e-9c1a-7e37b12a430b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/Gui/LogViewerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/Gui/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/Gui/ServerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/Gui/UrlGeneratorPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PDF_craking/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PDF_craking/src/main/java/org/guercifzone/chatgpt/PDF2JohnSwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PDF_craking/src/main/java/org/guercifzone/deepseek/PDF2JohnSwing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/guercifzone/Exmp_1/TorIPChangerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guercifzone/deepseek/TorIPChangerGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/guercifzone/Exmp_2/TorIpChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guercifzone/chatgpt/TorIpChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/logs/captured.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing/logs/captured.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/Chatgpt/Fishing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/Chatgpt/Fishing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/CredentialLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/CredentialLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/TemplateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/DeepSeek/TemplateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFishing/src/main/java/org/guercifzone/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guercifzone/IPChangerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BloggerContent/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BloggerContent/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrowseJson/src/main/java/JsonBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrowseJson/src/main/java/JsonBrowse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChangeIp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/chatgpt/TorIpChanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChangeIp/src/main/java/org/guercifzone/deepseek/TorIPChangerGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/FrameThatLucktoLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../badapple/lucktomylife/ThreadOne.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +56,15 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/jakinzo/USB_PROJECT/Desktop_App/ChangeIP",
     "onboarding.tips.debug.path": "/media/jakinzo/USB STICK/Desktop_App/ChangeIp/src/main/java/org/guercifzone/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TorIpChanger">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.guercifzone.Main" />
       <module name="ChangeIp" />
@@ -108,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TorIpChanger" />
-        <item itemvalue="Application.TorIPChangerGUI" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TorIPChangerGUI" />
+        <item itemvalue="Application.TorIpChanger" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +127,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/guercifzone/Main.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

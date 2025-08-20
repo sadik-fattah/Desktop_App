@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-sudo make -C /opt/xCut/ uninstall --no-print-directory
-cd
-sudo rm /opt/xCut -rf
