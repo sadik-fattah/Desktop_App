@@ -33,7 +33,6 @@ public class BG_Gui extends JFrame {
         JFrame frame = new JFrame("Blogger Content");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-         frame.getContentPane().setBackground(Color.BLACK);
         JPopupMenu popupMenu = new JPopupMenu();
         JMenuItem pasteItem = new JMenuItem("paste");
         jpanel1 = new JPanel(new BorderLayout());
@@ -47,6 +46,7 @@ public class BG_Gui extends JFrame {
         bloggerLinkTextField = new MyTextView();
         bloggerLinkTextField.setColumns(50);
         bloggerLinkTextField.setLabelText("Post URL:");
+        jpanel1.setBackground(Color.BLACK);
         jpanel1.add(label1, BorderLayout.WEST);
         jpanel1.add(bloggerLinkTextField, BorderLayout.CENTER);
         jpanel1.add(btn, BorderLayout.EAST);

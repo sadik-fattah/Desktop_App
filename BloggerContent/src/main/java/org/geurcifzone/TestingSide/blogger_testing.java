@@ -1,4 +1,4 @@
-package org.geurcifzone.GetBloggerContent;
+package org.geurcifzone.TestingSide;
 
 import java.io.*;
 import java.net.HttpURLConnection;
