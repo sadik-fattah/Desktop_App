@@ -1,4 +1,4 @@
-package org.geurcifzone;
+package org.geurcifzone.GetBloggerContent;
 
 import javax.swing.*;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -16,13 +16,12 @@ import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.geurcifzone.Classes.MyTextView;
 import org.w3c.dom.Document;
 public class Blogger_Content {
     private static JPanel jpanel1;
     private static JLabel label1;
-  //  private static JTextField bloggerLinkTextField;
-    private static MyTextView bloggerLinkTextField;
+   private static JTextField bloggerLinkTextField;
+  //  private static MyTextView bloggerLinkTextField;
     private static JButton button1;
 private static void CreatGuiDesing(){
     JFrame frame = new JFrame("Blogger Content");
@@ -31,11 +30,10 @@ private static void CreatGuiDesing(){
     JPopupMenu popupMenu = new JPopupMenu();
     JMenuItem pasteItem = new JMenuItem("paste");
     jpanel1 = new JPanel(new BorderLayout());
-
     label1 = new JLabel("Blogger Link :");
-    bloggerLinkTextField = new MyTextView();
     button1 = new JButton("Created");
-   bloggerLinkTextField.setLabelText("Blogger Link :");
+    bloggerLinkTextField = new JTextField(50);
+
     jpanel1.add(label1, BorderLayout.WEST);
     jpanel1.add(bloggerLinkTextField, BorderLayout.CENTER);
     jpanel1.add(button1, BorderLayout.EAST);

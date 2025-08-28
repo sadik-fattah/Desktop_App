@@ -41,11 +41,11 @@ public class MyTextView extends JTextField {
     private boolean show;
     private boolean mouseOver = false;
     private String labelText = "Label";
-    private Color lineColor = new Color(3, 155, 216);
+    private Color lineColor = new Color(255, 104, 0);
 
     public MyTextView() {
         setBorder(new EmptyBorder(20, 3, 10, 3));
-        setSelectionColor(new Color(76, 204, 255));
+        setSelectionColor(new Color(230, 250, 34));
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent me) {

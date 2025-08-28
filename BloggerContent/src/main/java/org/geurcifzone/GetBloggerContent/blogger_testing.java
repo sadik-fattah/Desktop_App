@@ -1,4 +1,4 @@
-package org.geurcifzone;
+package org.geurcifzone.GetBloggerContent;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -10,7 +10,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 
-public class blogger_testable {
+public class blogger_testing {
     public static void main(String[] args) {
         String feedUrl = "https://yourdamin.com/feeds/posts/default?alt=rss";
         String outputFile = "output.xml";
