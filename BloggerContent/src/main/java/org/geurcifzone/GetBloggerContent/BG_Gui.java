@@ -23,82 +23,260 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class BG_Gui extends JFrame {
-    private static JPanel jpanel1;
-    private static JLabel label1;
-   // private static JTextField bloggerLinkTextField;
-      private static MyTextView bloggerLinkTextField;
-  //  private static JButton button1;
-    private static MyButton btn;
-    private static void CreatGuiDesing(){
-        JFrame frame = new JFrame("Blogger Content");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    private JPanel contentPanel;
+    private JLabel titleLbl;
+    private static MyTextView bloggerLinkTextField;
+    private MyButton btn;
+    private Point initialClick;
 
-        JPopupMenu popupMenu = new JPopupMenu();
-        JMenuItem pasteItem = new JMenuItem("paste");
-        jpanel1 = new JPanel(new BorderLayout());
-        label1 = new JLabel("Blogger Link :");
-        label1.setForeground(Color.WHITE);
+    public BG_Gui(){
+        // MainFrame
+        setTitle("Blogger Content Creator");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(600, 200); // Reduced height since we removed instructions
+        setUndecorated(true);
+        setLocationRelativeTo(null);
+        setBackground(new Color(45, 45, 45));
+        setResizable(false);
+        // Create a custom title bar
+        JPanel titleBar = createTitleBar();
+
+        // Main content panel
+        contentPanel = new JPanel(new BorderLayout(10, 10));
+        contentPanel.setBackground(new Color(45, 45, 45));
+        contentPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
+
+        // Input panel
+        JPanel inputPanel = new JPanel(new BorderLayout(10, 10));
+        inputPanel.setBackground(new Color(45, 45, 45));
+
+        titleLbl = new JLabel("Blogger Post URL:");
+        titleLbl.setForeground(Color.WHITE);
+        titleLbl.setFont(new Font("Arial", Font.BOLD, 14));
+
+        bloggerLinkTextField = new MyTextView();
+        bloggerLinkTextField.setColumns(40);
+        bloggerLinkTextField.setLabelText("Paste blog post URL here");
+        bloggerLinkTextField.setForeground(Color.WHITE);
+        bloggerLinkTextField.setCaretColor(Color.ORANGE);
+
         btn = new MyButton();
-        btn.setLabel("GetSource");
+        btn.setText("Get Content");
         btn.setColor1(new Color(255, 104, 0));
         btn.setColor2(new Color(230, 250, 34));
         btn.setSizeSpeed(0.5F);
-        bloggerLinkTextField = new MyTextView();
-        bloggerLinkTextField.setColumns(50);
-        bloggerLinkTextField.setLabelText("Post URL:");
-        jpanel1.setBackground(Color.BLACK);
-        jpanel1.add(label1, BorderLayout.WEST);
-        jpanel1.add(bloggerLinkTextField, BorderLayout.CENTER);
-        jpanel1.add(btn, BorderLayout.EAST);
+        btn.setFont(new Font("Arial", Font.BOLD, 14));
+        btn.setPreferredSize(new Dimension(120, 35));
 
-        frame.add(jpanel1, BorderLayout.CENTER);
+        inputPanel.add(titleLbl, BorderLayout.WEST);
+        inputPanel.add(bloggerLinkTextField, BorderLayout.CENTER);
+        inputPanel.add(btn, BorderLayout.EAST);
 
+        // Status label
+        JLabel statusLabel = new JLabel("Enter a Blogger post URL to extract content as XML");
+        statusLabel.setForeground(Color.LIGHT_GRAY);
+        statusLabel.setFont(new Font("Arial", Font.PLAIN, 12));
+        statusLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        statusLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0));
+
+        contentPanel.add(inputPanel, BorderLayout.CENTER);
+        contentPanel.add(statusLabel, BorderLayout.SOUTH);
+
+        add(titleBar, BorderLayout.NORTH);
+        add(contentPanel, BorderLayout.CENTER);
+
+        // Right-click context menu
+        JPopupMenu popupMenu = new JPopupMenu();
+        JMenuItem pasteItem = new JMenuItem("Paste");
+        pasteItem.setFont(new Font("Arial", Font.PLAIN, 12));
         popupMenu.add(pasteItem);
-
 
         bloggerLinkTextField.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
-                super.mousePressed(e);
-                if (e.isPopupTrigger()){
-                    popupMenu.show(e.getComponent(),e.getX(),e.getY());
+                if (e.isPopupTrigger()) {
+                    popupMenu.show(e.getComponent(), e.getX(), e.getY());
                 }
             }
+
             @Override
             public void mouseReleased(MouseEvent e) {
-                super.mouseReleased(e);
-                if (e.isPopupTrigger()){
-                    popupMenu.show(e.getComponent(),e.getX(),e.getY());
+                if (e.isPopupTrigger()) {
+                    popupMenu.show(e.getComponent(), e.getX(), e.getY());
                 }
             }
         });
-        pasteItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                bloggerLinkTextField.paste();
-            }
-        });
-        btn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                RunInBack();
-            }
-        });
 
+        pasteItem.addActionListener(e -> bloggerLinkTextField.paste());
 
-        frame.pack();
-        frame.setVisible(true);
+        btn.addActionListener(e -> RunInBack());
+
+        pack();
+        setVisible(true);
     }
-    public static void RunInBack(){
-        String feedUrl = bloggerLinkTextField.getText().toString().trim() + "feeds/posts/default?alt=rss";
-        String outputFile = "output.xml";
 
-        if (bloggerLinkTextField.getText().isEmpty()){
-            JOptionPane.showConfirmDialog(null,
-                    "Put a blog link in the field.\n" + "It is better to have a blogger blogspot\n" + "Because the result will be an xml file..",
-                    "No Data",
-                    JOptionPane.PLAIN_MESSAGE);
+    private JPanel createTitleBar() {
+        JPanel titleBar = new JPanel();
+        titleBar.setBackground(new Color(30, 30, 30));
+        titleBar.setPreferredSize(new Dimension(500, 40));
+        titleBar.setLayout(new BorderLayout());
+        titleBar.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 5));
+
+        JLabel titleLabel = new JLabel("Blogger Content Extractor");
+        titleLabel.setForeground(Color.WHITE);
+        titleLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        titleBar.add(titleLabel, BorderLayout.WEST);
+
+        JPanel controlPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 5, 0));
+        controlPanel.setOpaque(false);
+
+        JButton minButton = createImageButton("Minimize.png", "Minimize");
+        JButton maxButton = createImageButton("Maximize.png", "Maximize");
+        JButton closeButton = createImageButton("Close.png", "Close");
+
+        if (minButton == null) minButton = createTitleButton("—");
+        if (maxButton == null) maxButton = createTitleButton("□");
+        if (closeButton == null) closeButton = createTitleButton("×");
+
+        minButton.addActionListener(e -> setState(JFrame.ICONIFIED));
+        maxButton.addActionListener(e -> toggleMaximize());
+        closeButton.addActionListener(e -> System.exit(0));
+
+        controlPanel.add(minButton);
+        controlPanel.add(maxButton);
+        controlPanel.add(closeButton);
+
+        titleBar.add(controlPanel, BorderLayout.EAST);
+
+        titleBar.addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                dragMousePressed(e);
+            }
+        });
+
+        titleBar.addMouseMotionListener(new MouseAdapter() {
+            public void mouseDragged(MouseEvent e) {
+                dragMouseDragged(e);
+            }
+        });
+
+        return titleBar;
+    }
+
+    private JButton createImageButton(String imageName, String tooltip) {
+        try {
+            URL imageUrl = getClass().getResource("/resources/" + imageName);
+            if (imageUrl == null) {
+                System.out.println("Image not found: " + imageName);
+                return null;
+            }
+
+            ImageIcon originalIcon = new ImageIcon(imageUrl);
+            Image scaledImage = originalIcon.getImage()
+                    .getScaledInstance(16, 16, Image.SCALE_SMOOTH);
+            ImageIcon icon = new ImageIcon(scaledImage);
+
+            JButton button = new JButton(icon);
+            button.setToolTipText(tooltip);
+            button.setFocusPainted(false);
+            button.setBorderPainted(false);
+            button.setContentAreaFilled(false);
+            button.setPreferredSize(new Dimension(30, 30));
+
+            button.addMouseListener(new MouseAdapter() {
+                public void mouseEntered(MouseEvent e) {
+                    if (tooltip.equals("Close")) {
+                        button.setBackground(new Color(232, 17, 35));
+                    } else {
+                        button.setBackground(new Color(80, 80, 80));
+                    }
+                    button.setOpaque(true);
+                }
+
+                public void mouseExited(MouseEvent e) {
+                    button.setBackground(null);
+                    button.setOpaque(false);
+                }
+            });
+
+            return button;
+        } catch (Exception e) {
+            System.out.println("Error loading image: " + imageName);
+            return null;
         }
+    }
+
+    private JButton createTitleButton(String text) {
+        JButton button = new JButton(text);
+        button.setFocusPainted(false);
+        button.setBorderPainted(false);
+        button.setContentAreaFilled(false);
+        button.setForeground(Color.WHITE);
+        button.setFont(new Font("Arial", Font.BOLD, 14));
+        button.setPreferredSize(new Dimension(30, 30));
+
+        button.addMouseListener(new MouseAdapter() {
+            public void mouseEntered(MouseEvent e) {
+                if (button.getText().equals("×")) {
+                    button.setBackground(new Color(232, 17, 35));
+                } else {
+                    button.setBackground(new Color(80, 80, 80));
+                }
+                button.setOpaque(true);
+            }
+
+            public void mouseExited(MouseEvent e) {
+                button.setBackground(null);
+                button.setOpaque(false);
+            }
+        });
+
+        return button;
+    }
+
+    private void toggleMaximize() {
+        if (getExtendedState() == JFrame.MAXIMIZED_BOTH) {
+            setExtendedState(JFrame.NORMAL);
+        } else {
+            setExtendedState(JFrame.MAXIMIZED_BOTH);
+        }
+    }
+
+    private void dragMousePressed(MouseEvent e) {
+        initialClick = e.getPoint();
+    }
+
+    private void dragMouseDragged(MouseEvent e) {
+        int thisX = getLocation().x;
+        int thisY = getLocation().y;
+
+        int xMoved = e.getX() - initialClick.x;
+        int yMoved = e.getY() - initialClick.y;
+
+        int X = thisX + xMoved;
+        int Y = thisY + yMoved;
+        setLocation(X, Y);
+    }
+
+    public static void RunInBack() {
+        String blogUrl = bloggerLinkTextField.getText().toString().trim();
+
+        if (blogUrl.isEmpty()) {
+            JOptionPane.showMessageDialog(null,
+                    "Please enter a Blogger post URL.\nThe application will generate an XML file from the content.",
+                    "Input Required",
+                    JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+
+        // Add proper URL validation
+        if (!blogUrl.startsWith("http")) {
+            blogUrl = "https://" + blogUrl;
+        }
+
+        String feedUrl = blogUrl + "/feeds/posts/default?alt=rss";
+        String outputFile = "blogger_content.xml";
+
         try {
             URL url = new URL(feedUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -122,25 +300,38 @@ public class BG_Gui extends JFrame {
                 StreamResult result = new StreamResult(new File(outputFile));
 
                 transformer.transform(source, result);
+
                 JOptionPane.showMessageDialog(null,
-                        "Feed data saved to " + outputFile,
-                        "Sucsses",
-                        JOptionPane.PLAIN_MESSAGE);
-                //   System.out.println("Feed data saved to " + outputFile);
+                        "Blog content successfully saved to:\n" + new File(outputFile).getAbsolutePath(),
+                        "Success",
+                        JOptionPane.INFORMATION_MESSAGE);
             } else {
                 JOptionPane.showMessageDialog(null,
-                        "Failed to fetch feed. HTTP Response Code:" + responseCode,
-                        "Failed",
-                        JOptionPane.PLAIN_MESSAGE);
-                //   System.out.println("Failed to fetch feed. HTTP Response Code: " + responseCode);
+                        "Failed to fetch blog content.\nHTTP Response Code: " + responseCode +
+                                "\nPlease check the URL and try again.",
+                        "Error",
+                        JOptionPane.ERROR_MESSAGE);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null,
+                    "Error: " + e.getMessage() +
+                            "\nPlease check the URL and try again.",
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE);
             e.printStackTrace();
         }
     }
+
     public static void main(String[] args) {
-        CreatGuiDesing();
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-
+        SwingUtilities.invokeLater(() -> {
+            BG_Gui bgGui = new BG_Gui();
+            bgGui.setVisible(true);
+        });
     }
 }
