@@ -25,10 +25,11 @@ public class IPChangerGUI extends JFrame {
         setSize(600, 500);
         setLocationRelativeTo(null);
 
+
         // Main panel
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-
+       mainPanel.setBackground(new Color(181, 188, 118));
         // Input panel
         JPanel inputPanel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -133,8 +134,11 @@ public class IPChangerGUI extends JFrame {
         executeIPChangeCommand(interfaceName, null, null, null, true);
     }
 
-    private void executeIPChangeCommand(String interfaceName, String ip,
-                                        String subnet, String gateway, boolean useDHCP) {
+    private void executeIPChangeCommand(String interfaceName,
+                                        String ip,
+                                        String subnet,
+                                        String gateway,
+                                        boolean useDHCP) {
         new SwingWorker<Void, String>() {
             @Override
             protected Void doInBackground() throws Exception {
