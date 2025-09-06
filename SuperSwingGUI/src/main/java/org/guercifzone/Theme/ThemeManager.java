@@ -1,6 +1,5 @@
 package org.guercifzone.Theme;
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
